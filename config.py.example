@@ -1,0 +1,13 @@
+REQUESTS_CA_BUNDLE = "/etc/ssl/certs/Root-CA.pem"
+DEBUG = False
+
+NB_URL = "https://netbox.example.com/"
+NB_TOKEN = "EXAMPLETOKEN"
+
+UTMs = [
+    {
+        "name": "example-fw",
+        "api-url": "https://fw.example.com:4444/api/",
+        "token": "EXAMPLETOKEN",
+    },
+]
